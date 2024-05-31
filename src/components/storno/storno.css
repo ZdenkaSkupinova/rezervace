@@ -1,0 +1,21 @@
+.summary__cancel {
+  font-weight: bold;
+  padding: 15px;
+ }
+  
+  .summary__cancel h3 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+  }
+  
+  .summary__cancel-text {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .summary__cancel-text p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+

@@ -1,0 +1,55 @@
+h2 {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-size: 2em;
+}
+
+.summary__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+  }
+   .summary__detail h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+  }
+  .summary__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .summary__head-property,
+  .summary__head-room {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+  }
+  .summary__head-room {
+    padding-bottom: 2rem;
+  }
+
+  .summary__name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .summary__adress,
+  .summary__city,
+  .summary__rating,
+  .summary__room-type,
+  .summary__room-price {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .summary__rating {
+    font-weight: bold;
+    color: #4caf50;
+  }
+
